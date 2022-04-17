@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'northwell';
+    src: url('../fonts/northwell-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*, 
+*::after, 
+*::before{
+    margin: 0; /* by default browser automatically adds margin and paddings to elements*/
+    padding: 0;
+    box-sizing: inherit; /* use to force inheritance, by setting this it will automatically inherit
+    whatever we out on the body selector box-sizing: border-box*/
+}
+
+html{
+    font-size: 62.5%;
+}

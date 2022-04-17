@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'northwell';
+  src: url("../fonts/northwell-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppins';
+  src: url("../fonts/poppins-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  /* by default browser automatically adds margin and paddings to elements*/
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  /* use to force inheritance, by setting this it will automatically inherit
+    whatever we out on the body selector box-sizing: border-box*/
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f5b553;
+}
+
+.header__mainlogo {
+  color: #000000;
+  font-family: 'northwell';
+  font-size: 8rem;
+  font-weight: 400;
+}
+
+.header__searchbox {
+  padding: 0.7rem;
+  font-size: 1rem;
+}
+
+.header {
+  height: 30vh;
+  position: relative;
+}
+
+.header__sociallogobox {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+}
+
+.header__sociallogo {
+  height: 3rem;
+  padding-left: 1rem;
+}
+
+.header__mainlogobox {
+  text-align: center;
+  padding-top: 4.5rem;
+  padding-bottom: 3rem;
+}
+
+.header__searchbox {
+  float: right;
+  position: absolute;
+  top: .5rem;
+  right: 1rem;
+  margin-top: 1rem;
+  margin-right: .5rem;
+  border: 1px solid grey;
+  border-radius: 1.5rem;
+  background: #f1f1f1;
+}
+
+.topnav {
+  background-color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,33 @@
+.header {
+    height: 30vh;
+    position: relative;
+
+    &__sociallogobox{
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        }
+
+    &__sociallogo{
+        height: 3rem;
+        padding-left: 1rem;
+    }
+    &__mainlogobox{
+        text-align: center;
+        padding-top: 4.5rem;
+        padding-bottom: 3rem;
+    }
+
+    &__searchbox{
+        float: right;
+        position: absolute;
+        top: .5rem;
+        right: 1rem;
+        margin-top: 1rem;
+        margin-right: .5rem;
+        border: 1px solid grey;
+        border-radius: 1.5rem;
+        background: #f1f1f1;
+    }
+
+    }

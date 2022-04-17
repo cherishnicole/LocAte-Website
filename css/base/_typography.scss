@@ -1,0 +1,20 @@
+body{
+    background-color: $color-primary;
+}
+
+.header{
+    &__mainlogo{
+        color: $color-fonts;
+        font-family: 'northwell';
+        font-size: 8rem;
+        font-weight: 400;
+    }
+
+    &__searchbox{
+        padding: 0.7rem;
+        font-size: 1rem;
+       
+    
+    }
+}
+
